@@ -68,4 +68,4 @@ class TicketButtons(discord.ui.View):
 async def ticket(interaction: discord.Interaction):
     await interaction.response.send_message(content="Ticket oluşturmak için tıklayınız", view=TicketButtons())
 
-bot.run("MTA3NTA4MTE5NjMxMDExODQ0MQ.GhL8uU.mGH6WptmLVNXpzZHufrQ3X5nbMONbJ3E84PVOE")
+bot.run("token")
